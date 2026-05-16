@@ -1,0 +1,174 @@
+2026-05-13 14:23:13.165 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 14:23:16.171 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 87
+2026-05-13 14:26:11.838 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 14:26:12.140 +07:00 [WRN] Đăng nhập thất bại: Sai thông tin cho Email tienDat@gmail.com | IP: ::1
+2026-05-13 14:51:00.025 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 14:51:00.215 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 88
+2026-05-13 14:56:55.066 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 14:56:55.205 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 89
+2026-05-13 14:56:57.192 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 14:56:57.325 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 90
+2026-05-13 15:11:54.985 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 15:11:56.435 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 91
+2026-05-13 15:19:08.775 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 15:19:10.186 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 92
+2026-05-13 15:20:02.897 +07:00 [FTL] Application startup exception
+System.ArgumentNullException: Value cannot be null. (Parameter 'origins')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder.WithOrigins(String[] origins)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(CorsPolicyBuilder builder) in D:\ThucTap\Pharse2\Pharse2\Program.cs:line 23
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions.AddPolicy(String name, Action`1 configurePolicy)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(CorsOptions options) in D:\ThucTap\Pharse2\Pharse2\Program.cs:line 20
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsService..ctor(IOptions`1 options, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2026-05-13 15:20:02.942 +07:00 [ERR] Hosting failed to start
+System.ArgumentNullException: Value cannot be null. (Parameter 'origins')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder.WithOrigins(String[] origins)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(CorsPolicyBuilder builder) in D:\ThucTap\Pharse2\Pharse2\Program.cs:line 23
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions.AddPolicy(String name, Action`1 configurePolicy)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(CorsOptions options) in D:\ThucTap\Pharse2\Pharse2\Program.cs:line 20
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsService..ctor(IOptions`1 options, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-05-13 15:20:21.254 +07:00 [FTL] Application startup exception
+System.ArgumentNullException: Value cannot be null. (Parameter 'origins')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder.WithOrigins(String[] origins)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(CorsPolicyBuilder builder) in D:\ThucTap\Pharse2\Pharse2\Program.cs:line 23
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions.AddPolicy(String name, Action`1 configurePolicy)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(CorsOptions options) in D:\ThucTap\Pharse2\Pharse2\Program.cs:line 20
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsService..ctor(IOptions`1 options, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2026-05-13 15:20:21.288 +07:00 [ERR] Hosting failed to start
+System.ArgumentNullException: Value cannot be null. (Parameter 'origins')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder.WithOrigins(String[] origins)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(CorsPolicyBuilder builder) in D:\ThucTap\Pharse2\Pharse2\Program.cs:line 23
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions.AddPolicy(String name, Action`1 configurePolicy)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(CorsOptions options) in D:\ThucTap\Pharse2\Pharse2\Program.cs:line 20
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsService..ctor(IOptions`1 options, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-05-13 15:24:46.036 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 15:24:47.411 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 93
+2026-05-13 15:24:56.868 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 15:24:57.181 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 94
+2026-05-13 15:33:45.215 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 15:33:45.406 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 95
+2026-05-13 15:34:25.021 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 15:34:25.161 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 96
+2026-05-13 15:34:54.569 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 15:34:54.702 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 97
+2026-05-13 15:35:14.545 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 15:35:14.709 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 98
+2026-05-13 15:35:52.853 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 15:35:52.991 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 99
+2026-05-13 15:40:58.716 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 15:40:58.851 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 100
+2026-05-13 15:52:33.016 +07:00 [INF] Đang xử lý đăng nhập cho: ngocTung@gmail.com
+2026-05-13 15:52:33.175 +07:00 [INF] Đăng nhập thành công: User ngocTung@gmail.com (ID: 52) | TokenId: 101
+2026-05-13 16:02:40.473 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 16:02:40.666 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 102
+2026-05-13 16:04:23.761 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 16:04:23.918 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 103
+2026-05-13 16:17:44.142 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 16:17:44.279 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 104
+2026-05-13 16:21:36.778 +07:00 [INF] Đang xử lý đăng nhập cho: 
+2026-05-13 16:21:36.783 +07:00 [WRN] Đăng nhập thất bại: Sai thông tin cho Email  | IP: ::1
+2026-05-13 16:23:59.889 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 16:24:00.051 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 105
+2026-05-13 16:29:48.282 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 16:29:48.447 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 106
+2026-05-13 16:30:39.941 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 16:30:40.091 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 107
+2026-05-13 16:44:28.620 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 16:44:28.785 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 108
+2026-05-13 16:46:11.286 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-05-13 16:46:11.437 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 109

@@ -1,0 +1,18 @@
+2026-04-23 11:23:17.855 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-04-23 11:30:28.229 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-04-23 11:30:30.137 +07:00 [WRN] Đăng nhập thất bại: Sai thông tin cho Email tienDat@gmail.com | IP: ::1
+2026-04-23 11:30:46.800 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-04-23 11:30:47.545 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 81
+2026-04-23 11:33:29.448 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-04-23 11:33:29.593 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 82
+2026-04-23 11:34:04.125 +07:00 [INF] Đang xử lý đăng nhập cho: ngocTung@gmail.com
+2026-04-23 11:34:04.287 +07:00 [INF] Đăng nhập thành công: User ngocTung@gmail.com (ID: 52) | TokenId: 83
+2026-04-23 11:48:31.641 +07:00 [INF] Đang xử lý đăng nhập cho: ngocTung@gmail.com
+2026-04-23 11:48:33.523 +07:00 [INF] Đăng nhập thành công: User ngocTung@gmail.com (ID: 52) | TokenId: 84
+2026-04-23 11:49:04.465 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-04-23 11:49:04.778 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 85
+2026-04-23 11:49:28.579 +07:00 [INF] Đang xử lý đăng xuất!
+2026-04-23 14:09:10.042 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+
+2026-04-23 14:31:03.853 +07:00 [INF] Đang xử lý đăng nhập cho: tienDat@gmail.com
+2026-04-23 14:31:04.902 +07:00 [INF] Đăng nhập thành công: User tienDat@gmail.com (ID: 51) | TokenId: 86
